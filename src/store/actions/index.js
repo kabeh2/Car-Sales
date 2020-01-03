@@ -1,1 +1,1 @@
-export { ADD, REMOVE } from "./actionTypes";
+export { ADD, REMOVE, add, remove } from "./actionTypes";
