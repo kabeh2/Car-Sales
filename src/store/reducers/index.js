@@ -43,8 +43,12 @@ const reducer = (state = initialState, action) => {
       };
     case actionTypes.REMOVE:
       // filter out specific item to be deleted
-      const removedItem = [...state.car.features].filter(feature => {
-        return feature.id !== action.featureId;
+      const removedItem = [...state.car.features].filter((feature, index) => {
+        // use index instead as if added multiple of same
+        // feature, on remove, it removes all with same id
+        return index !== action.featureId;
+        // if you want to remove by same id, use below
+        // return feature.id !== action.featureId;
       });
 
       return {
