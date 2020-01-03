@@ -1,4 +1,4 @@
-### View My Completed Work: https://kabeh2.github.io/car-sales/
+### View My Completed Work: https://kabeh2.github.io/Car-Sales/
 
 # Module Project: Redux - Car Sales
 
