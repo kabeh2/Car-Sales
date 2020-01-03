@@ -1,10 +1,10 @@
 {
-  "name": "new",
+  "name": "Car-Sales",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": "https://kabeh2.github.io/nasa-photo-of-the-day/",
+  "homepage": "https://kabeh2.github.io/Car-Sales/",
   "dependencies": {
     "bulma": "0.7.5",
     "node-sass": "^4.13.0",
