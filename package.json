@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "https://kabeh2.github.io/nasa-photo-of-the-day/",
   "dependencies": {
     "bulma": "0.7.5",
     "node-sass": "^4.13.0",
@@ -14,13 +15,16 @@
     "redux": "^4.0.5"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
