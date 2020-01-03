@@ -13,6 +13,13 @@ const App = props => {
 
   const buyItem = item => {
     // dipsatch an action here to add an item
+    const addedItem = [...props.state.additionalFeatures].map(
+      (feature, index) => {
+        if (feature.id === item) props.state.car.features.push(feature);
+      }
+    );
+    console.log(props.state.car.features);
+    return addedItem;
   };
 
   return (
@@ -24,6 +31,7 @@ const App = props => {
       <div className="box">
         <AdditionalFeatures
           additionalFeatures={props.state.additionalFeatures}
+          buyItem={buyItem}
         />
         <Total
           car={props.state.car}

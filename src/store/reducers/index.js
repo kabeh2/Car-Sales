@@ -1,3 +1,5 @@
+import * as actionTypes from "../actions";
+
 const initialState = {
   additionalPrice: 0,
   car: {
@@ -16,7 +18,14 @@ const initialState = {
 };
 
 const reducer = (state = initialState, action) => {
-  return state;
+  switch (action.type) {
+    case actionTypes.ADD:
+      return {};
+    case actionTypes.REMOVE:
+      return {};
+    default:
+      return state;
+  }
 };
 
 export default reducer;
