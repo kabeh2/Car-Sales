@@ -1,3 +1,5 @@
+import * as actionTypes from "../actions";
+
 const initialState = {
   additionalPrice: 0,
   car: {
@@ -16,7 +18,48 @@ const initialState = {
 };
 
 const reducer = (state = initialState, action) => {
-  return state;
+  switch (action.type) {
+    case actionTypes.ADD:
+      // isolate specific added item in array
+      const addedItem = [...state.additionalFeatures].filter(feature => {
+        return feature.id === action.featureId;
+      });
+
+      // add specific filtered item to features array
+      state.car.features.push(addedItem[0]);
+
+      return {
+        ...state,
+        car: {
+          ...state.car,
+          // use action to add price
+          price: state.car.price + action.featurePrice,
+          features: [
+            // call new array with pushed item
+            ...state.car.features
+          ]
+        },
+        additionalFeatures: [...state.additionalFeatures]
+      };
+    case actionTypes.REMOVE:
+      // filter out specific item to be deleted
+      const removedItem = [...state.car.features].filter(feature => {
+        return feature.id !== action.featureId;
+      });
+
+      return {
+        ...state,
+        car: {
+          ...state.car,
+          // use action to minus price
+          price: state.car.price - action.featurePrice,
+          features: [...removedItem]
+        },
+        additionalFeatures: [...state.additionalFeatures]
+      };
+    default:
+      return state;
+  }
 };
 
 export default reducer;
