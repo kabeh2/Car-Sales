@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/nasa-photo-of-the-day/static/css/main.cb42e0a5.chunk.css",
-    "main.js": "/nasa-photo-of-the-day/static/js/main.63cb1c5a.chunk.js",
-    "main.js.map": "/nasa-photo-of-the-day/static/js/main.63cb1c5a.chunk.js.map",
-    "runtime-main.js": "/nasa-photo-of-the-day/static/js/runtime-main.4c5c7fff.js",
-    "runtime-main.js.map": "/nasa-photo-of-the-day/static/js/runtime-main.4c5c7fff.js.map",
-    "static/css/2.1ef35742.chunk.css": "/nasa-photo-of-the-day/static/css/2.1ef35742.chunk.css",
-    "static/js/2.3e9861fe.chunk.js": "/nasa-photo-of-the-day/static/js/2.3e9861fe.chunk.js",
-    "static/js/2.3e9861fe.chunk.js.map": "/nasa-photo-of-the-day/static/js/2.3e9861fe.chunk.js.map",
-    "index.html": "/nasa-photo-of-the-day/index.html",
-    "precache-manifest.39e63fc9d2a3270cb0729f5c59cd76c1.js": "/nasa-photo-of-the-day/precache-manifest.39e63fc9d2a3270cb0729f5c59cd76c1.js",
-    "service-worker.js": "/nasa-photo-of-the-day/service-worker.js",
-    "static/css/2.1ef35742.chunk.css.map": "/nasa-photo-of-the-day/static/css/2.1ef35742.chunk.css.map",
-    "static/css/main.cb42e0a5.chunk.css.map": "/nasa-photo-of-the-day/static/css/main.cb42e0a5.chunk.css.map",
-    "static/js/2.3e9861fe.chunk.js.LICENSE": "/nasa-photo-of-the-day/static/js/2.3e9861fe.chunk.js.LICENSE"
+    "main.css": "/Car-Sales/static/css/main.cb42e0a5.chunk.css",
+    "main.js": "/Car-Sales/static/js/main.0ab2d08a.chunk.js",
+    "main.js.map": "/Car-Sales/static/js/main.0ab2d08a.chunk.js.map",
+    "runtime-main.js": "/Car-Sales/static/js/runtime-main.e1016992.js",
+    "runtime-main.js.map": "/Car-Sales/static/js/runtime-main.e1016992.js.map",
+    "static/css/2.1ef35742.chunk.css": "/Car-Sales/static/css/2.1ef35742.chunk.css",
+    "static/js/2.27eef226.chunk.js": "/Car-Sales/static/js/2.27eef226.chunk.js",
+    "static/js/2.27eef226.chunk.js.map": "/Car-Sales/static/js/2.27eef226.chunk.js.map",
+    "index.html": "/Car-Sales/index.html",
+    "precache-manifest.3d3072b6e40d0393aef6dd0f4e18d98c.js": "/Car-Sales/precache-manifest.3d3072b6e40d0393aef6dd0f4e18d98c.js",
+    "service-worker.js": "/Car-Sales/service-worker.js",
+    "static/css/2.1ef35742.chunk.css.map": "/Car-Sales/static/css/2.1ef35742.chunk.css.map",
+    "static/css/main.cb42e0a5.chunk.css.map": "/Car-Sales/static/css/main.cb42e0a5.chunk.css.map",
+    "static/js/2.27eef226.chunk.js.LICENSE": "/Car-Sales/static/js/2.27eef226.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c5c7fff.js",
+    "static/js/runtime-main.e1016992.js",
     "static/css/2.1ef35742.chunk.css",
-    "static/js/2.3e9861fe.chunk.js",
+    "static/js/2.27eef226.chunk.js",
     "static/css/main.cb42e0a5.chunk.css",
-    "static/js/main.63cb1c5a.chunk.js"
+    "static/js/main.0ab2d08a.chunk.js"
   ]
 }
