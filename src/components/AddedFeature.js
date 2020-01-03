@@ -8,8 +8,12 @@ const AddedFeature = props => {
       {/* Add an onClick to run a function to remove a feature */}
       <button
         className="button"
-        onClick={() =>
-          props.removeFeature(props.feature.id, props.feature.price)
+        onClick={
+          // use index instead as if added multiple of same
+          // feature, on remove, it removes all with same id
+          () => props.removeFeature(props.index, props.feature.price)
+          // if you want to remove by same id, use below
+          // props.removeFeature(props.feature.id, props.feature.price)
         }
       >
         X

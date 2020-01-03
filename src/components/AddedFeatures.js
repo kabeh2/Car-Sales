@@ -8,10 +8,11 @@ const AddedFeatures = props => {
       <h6>Added features:</h6>
       {props.car.features.length > 0 ? (
         <ol type="1">
-          {props.car.features.map(item => (
+          {props.car.features.map((item, index) => (
             <AddedFeature
               key={Math.random()}
               feature={item}
+              index={index}
               removeFeature={props.removeFeature}
             />
           ))}
